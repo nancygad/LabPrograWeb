@@ -1,0 +1,62 @@
+body{
+  background: #303030;
+}
+h1 {
+  color: #CA7218;
+  text-align: center;
+     font-family:shrek;
+}
+
+@font-face
+{
+    font-family:shrek;
+    src: url(shrekfont.ttf);
+}
+
+p
+{
+    font-family:shrek;
+    font-size: 20px;
+}
+/* Contenedor del puzzle*/
+#contenedorPuzzle {
+	margin: 20px auto;
+	width: 480px;
+	background: rgba(20,20,20,0.8);
+	box-shadow: 0px 0px 10px  2px #777;
+	color: #ccc;
+	padding: 20px;
+	
+	overflow: hidden;
+}
+
+
+/* Puzzle */
+#contenedorPiezas{
+	background: #e7931a;
+	width: 460px;
+	height: 460px;
+	float: left;
+	margin-left: 10px;
+	box-shadow: 0px 0px 10px  2px #d0eb6a;
+}
+
+#puzzle {
+	background: #d0eb6a;
+	width: 460px;
+	height: 500px;
+	float: right;
+	margin-right: 10px;
+	box-shadow: 0px 0px 10px  2px #e7931a;
+}
+.contenedorPieza {
+	width: 230px;
+	height: 240px;
+	float: left;
+}
+
+#contenedorPuzzle img {
+	float: left;
+	width: 230px;
+	height: 200px;
+}
